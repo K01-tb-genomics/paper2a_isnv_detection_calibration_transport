@@ -1,0 +1,60 @@
+Observed-data primary (Stage 1, lex): DP=60, AD1=3, MAF=0.02
+Total unique M0 within-visit pairs: 169
+Bootstrap reps: B = 1000
+
+Running lex bootstrap...
+  rep 1 / 1000  [0.2s elapsed, 0 failed]
+  rep 10 / 1000  [2.2s elapsed, 2 failed]
+  rep 100 / 1000  [15.7s elapsed, 34 failed]
+  rep 200 / 1000  [31.1s elapsed, 70 failed]
+  rep 300 / 1000  [45.6s elapsed, 99 failed]
+  rep 400 / 1000  [60.8s elapsed, 122 failed]
+  rep 500 / 1000  [75.6s elapsed, 147 failed]
+  rep 600 / 1000  [90.6s elapsed, 185 failed]
+  rep 700 / 1000  [106.5s elapsed, 209 failed]
+  rep 800 / 1000  [121.8s elapsed, 237 failed]
+  rep 900 / 1000  [137.5s elapsed, 270 failed]
+  rep 1000 / 1000  [152.8s elapsed, 297 failed]
+
+Bootstrap complete in 152.9 seconds. Failed reps: 297 / 1000 (29.70%)
+
+Bootstrap-stabilized primary (modal across reps; method = lex):
+  DP=60, AD1=3, MAF=0.02   (selected in 321 / 703 reps = 45.7%)
+
+Joint stability comparison:
+  Observed-data primary (DP=60, AD1=3, MAF=0.02): 45.7% of reps
+  Modal cell             (DP=60, AD1=3, MAF=0.02): 45.7% of reps
+  [CONSISTENT] Modal cell matches observed-data primary; no override.
+
+[02b] Looser/Tighter recomputed against stabilized Primary with axis-wise dominance:
+  Looser:  DP=40, AD1=3, MAF=0.02  (S = 3)
+  Primary: DP=60, AD1=3, MAF=0.02  (stabilized)
+  Tighter: DP=100, AD1=6, MAF=0.02  (S = 117)
+
+[02b] thr_primary.rds OVERWRITTEN with bootstrap-stabilized cell.
+  Backups available in PATHS$calibration:
+    thr_primary_observed.rds  = Stage 1 observed-data primary (lex)
+    thr_primary_bootstrap.rds = Stage 2 bootstrap-stabilized primary (now active)
+
+=== Bootstrap stability summary ===
+                                        metric                    value
+1                             Selection method                      lex
+2                           Bootstrap reps (B)                     1000
+3                Failed reps (no primary cell)             297 (29.70%)
+4          Reps yielding a primary cell (n_ok)                      703
+5              Observed-data primary (Stage 1) (DP=60, AD1=3, MAF=0.02)
+6         P(rep selects observed-data primary)                    45.7%
+7  Modal cell across reps (Stage 2 stabilized) (DP=60, AD1=3, MAF=0.02)
+8                                P(modal cell)                    45.7%
+9                           Modal == observed?                      yes
+10                  Marginal P(DP_min = modal)                    45.7%
+11                 Marginal P(AD1_min = modal)                    90.2%
+12                 Marginal P(MAF_min = modal)                   100.0%
+
+Top-5 cells by frequency across reps:
+  DP_min AD1_min MAF_min n_reps mean_J_pick mean_C_pick       prop  S
+1     60       3    0.02    321 0.608320353 0.752758307 0.45661451  5
+2     40       3    0.02    170 0.191176471 0.229411765 0.24182077  3
+3     90       3    0.02     88 0.007575758 0.009469697 0.12517781  7
+4     80       6    0.02     64 0.072916667 0.091145833 0.09103841 12
+5    130       3    0.02     24 0.673611111 0.795138889 0.03413940  8

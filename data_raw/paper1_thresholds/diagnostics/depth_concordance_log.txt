@@ -1,0 +1,19 @@
+Tiers loaded: looser, primary, tighter
+Using depth field: depth_med
+[looser] DP=40 AD1=3 MAF=0.02: 169 pairs / 67 patients
+[primary] DP=60 AD1=3 MAF=0.02: 169 pairs / 67 patients
+[tighter] DP=100 AD1=6 MAF=0.02: 169 pairs / 67 patients
+
+Summary:
+     tier                    cell n_pairs n_patients n_both_zero n_evaluable slope_bz_per10x se_bz_per10x      p_bz slope_jc_per10x se_jc_per10x       p_jc
+1  looser  DP=40, AD1=3, MAF=0.02     169         67         155           6       0.0865206   0.06029192 0.1512791      0.02986137  0.009933724 0.03970411
+2 primary  DP=60, AD1=3, MAF=0.02     169         67         155           6       0.0865206   0.06029192 0.1512791      0.02862326  0.010107355 0.04725278
+3 tighter DP=100, AD1=6, MAF=0.02     169         67         155           6       0.0865206   0.06029192 0.1512791      0.03436361  0.009476478 0.02223460
+
+Interpretation:
+     tier                    cell n_pairs  interp_both_zero                                  interp_jaccard
+1  looser  DP=40, AD1=3, MAF=0.02     169 FLAT (cliff-like) OK (measurement-like): Jaccard rises with depth
+2 primary  DP=60, AD1=3, MAF=0.02     169 FLAT (cliff-like) OK (measurement-like): Jaccard rises with depth
+3 tighter DP=100, AD1=6, MAF=0.02     169 FLAT (cliff-like) OK (measurement-like): Jaccard rises with depth
+
+Figure -> outputs/figures/snv_only_ppe_excluded_lex/figure_S_depth_concordance.pdf
