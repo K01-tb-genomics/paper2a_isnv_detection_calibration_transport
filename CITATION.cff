@@ -16,7 +16,7 @@ date-released: "2026-05-24"
 license: MIT
 repository-code: "https://github.com/K01-tb-genomics/paper2a_isnv_detection_calibration_transport"
 url: "https://github.com/K01-tb-genomics/paper2a_isnv_detection_calibration_transport"
-doi: "[PLACEHOLDER: 10.5281/zenodo.XXXXXXX after Zenodo archival]"
+doi: "10.5281/zenodo.20365399"
 keywords:
   - Mycobacterium tuberculosis
   - whole genome sequencing
