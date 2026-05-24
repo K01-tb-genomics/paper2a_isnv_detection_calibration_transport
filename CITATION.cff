@@ -1,6 +1,6 @@
 cff-version: 1.2.0
 message: "If you use this software, please cite both the software (this record) and the associated manuscript (preferred-citation)."
-title: "Analysis code for a transport diagnostic of a calibrated Mycobacterium tuberculosis intra-host variant detection filter rule"
+title: "Analysis code for a transport diagnostic of a calibrated intra-host variant detection filter in Mycobacterium tuberculosis"
 abstract: >-
   R pipeline that tests whether a replicate-anchored intra-host single nucleotide variant (iSNV) detection filter, calibrated on a higher-depth Ghana Mycobacterium tuberculosis cohort, transfers to a lower-depth Florida TB surveillance archive. Two transport tests: a per-specimen prevalence-band test (T1) and a within-cluster Jaccard-versus-depth slope test (T2), plus a post-hoc hurdle decomposition separating the extensive and intensive margins of depth-detection coupling. Companion code to: Séraphin MN et al. Can a calibrated intra-host variant detection filter transfer across sequencing depth regimes? A transport diagnostic for Mycobacterium tuberculosis genomic epidemiology. (in preparation, 2026).
 type: software
