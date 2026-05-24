@@ -1,0 +1,41 @@
+{
+  "title": "Analysis code for a transport diagnostic of a calibrated Mycobacterium tuberculosis intra-host variant detection filter rule (v1.0.0)",
+  "description": "<p>R pipeline implementing a two-component transport diagnostic for a replicate-anchored intra-host single nucleotide variant (iSNV) detection filter calibrated on a Ghana <em>Mycobacterium tuberculosis</em> cohort and re-applied to a Florida surveillance archive at lower sequencing depth.</p><p>Implements a per-specimen prevalence-band test (T1) and a within-cluster Jaccard-versus-depth slope test (T2) drawn from prognostic-model transportability theory (Justice 1999; Steyerberg 2010; Van Calster 2016), and a post-hoc hurdle decomposition (Cragg 1971) isolating the extensive and intensive margins of depth-detection coupling.</p><p>Companion code to: Séraphin MN et al. <em>Can a calibrated intra-host variant detection filter transfer across sequencing depth regimes? A transport diagnostic for</em> Mycobacterium tuberculosis <em>genomic epidemiology</em>.(in preparation, 2026).</p>",
+  "upload_type": "software",
+  "access_right": "open",
+  "license": "MIT",
+  "version": "1.0.0",
+  "language": "eng",
+  "keywords": [
+    "Mycobacterium tuberculosis",
+    "whole genome sequencing",
+    "intra-host variant calling",
+    "iSNV",
+    "transportability",
+    "measurement error",
+    "genomic epidemiology",
+    "R",
+    "modified Poisson",
+    "cluster-robust sandwich variance"
+  ],
+  "creators": [
+    {
+      "name": "Séraphin, Marie Nancy",
+      "affiliation": "Department of Epidemiology, University of Florida",
+      "orcid": "https://orcid.org/0000-0002-2120-6011"
+    }
+  ],
+  "communities": [
+    {"identifier": "microbial-genomics"}
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "https://github.com/K01-tb-genomics/paper2a_isnv_detection_calibration_transport",
+      "relation": "isSupplementTo",
+      "resource_type": "software"
+    }
+  ],
+  "grants": [
+    {"id": "10.13039/100000060::K01AI153544"}
+  ]
+}
