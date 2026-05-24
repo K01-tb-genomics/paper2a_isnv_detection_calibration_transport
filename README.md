@@ -25,7 +25,7 @@ mean depth. Two pre-specified diagnostics evaluate transport:
   clusters, does pair-level Jaccard rise with minimum pair depth, matching the
   Ghana within-host replicate-pair signal?
 
-A post-hoc hurdle decomposition (extensive + intensive margins) localizes the
+A post-hoc hurdle decomposition (any iSNV sharing + amount of iSNV sharing) localizes the
 depth-detection coupling. eAppendix scripts produce supplementary tables and
 figures (depth-floor derivation, leave-one-cluster-out sensitivity, both-empty
 LPM-versus-logit scale check).
