@@ -113,9 +113,9 @@ not redistribute raw sequencing reads.
 If you use this software, please cite both the software record and the
 associated manuscript. See `CITATION.cff` for the canonical metadata.
 
-Software (Zenodo): DOI [PLACEHOLDER: 10.5281/zenodo.XXXXXXX]
+Software (Zenodo): DOI 10.5281/zenodo.20365399
 
-Manuscript: Séraphin MN, et al. (in preparation, 2026).
+Manuscript: Séraphin MN et al. Can a calibrated intra-host variant detection filter transfer across sequencing depth regimes? A transport diagnostic for Mycobacterium tuberculosis genomic epidemiology. (in preparation, 2026).
 
 ## License
 
