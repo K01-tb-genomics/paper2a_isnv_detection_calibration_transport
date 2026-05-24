@@ -30,7 +30,6 @@ authors:
     email: "nseraphin@ufl.edu"
     affiliation: "Department of Epidemiology, University of Florida"
     orcid: "https://orcid.org/0000-0002-2120-6011"
-  # [PLACEHOLDER: additional coauthors pending 2a vs 2b authorship assignment]
-  year: 2026
-  journal: "TBD"
-  status: "in preparation"
+year: 2026
+journal: "TBD"
+status: "in preparation"
